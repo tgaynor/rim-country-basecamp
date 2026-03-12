@@ -4,6 +4,7 @@ import hikingTrail from "@/assets/hiking-trail.jpg";
 import lakeFishing from "@/assets/lake-fishing.jpg";
 import riverCreek from "@/assets/river-creek.jpg";
 import golfCourse from "@/assets/golf-course.jpg";
+import rodeoEvents from "@/assets/rodeo-events.jpg";
 import heroImage from "@/assets/hero-landscape.jpg";
 
 const sections = [
