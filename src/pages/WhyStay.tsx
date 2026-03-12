@@ -28,7 +28,7 @@ const reasons = [
   {
     icon: KeyRound,
     title: "Easy Self Check-In",
-    desc: "No waiting in line. Our self check-in system lets you arrive and get settled on your own schedule — perfect for late arrivals or travelers who want a seamless experience.",
+    desc: "No waiting in line. Our self check-in system is technology enabled, perfect for late arrivals or travelers who want a seamless experience.",
   },
 ];
 
