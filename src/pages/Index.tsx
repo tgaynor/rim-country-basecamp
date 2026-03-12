@@ -11,6 +11,7 @@ import hikingTrail from "@/assets/hiking-trail.jpg";
 import lakeFishing from "@/assets/lake-fishing.jpg";
 import golfCourse from "@/assets/golf-course.jpg";
 import riverCreek from "@/assets/river-creek.jpg";
+import rodeoEvents from "@/assets/rodeo-events.jpg";
 import hotelExterior from "@/assets/hotel-exterior.jpg";
 
 const benefits = [
