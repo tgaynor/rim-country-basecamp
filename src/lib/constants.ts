@@ -1,4 +1,4 @@
-export const BOOKING_URL = "https://hotels.cloudbeds.com/reservations/rimcountryinn";
+export const BOOKING_URL = "https://us2.cloudbeds.com/en/reservation/peJ1GH?currency=usd";
 export const PHONE = "(928) 474-2241";
 export const EMAIL = "info@rimcountryinn.com";
 export const ADDRESS = "811 S Beeline Hwy, Payson, AZ 85541";
