@@ -58,7 +58,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Self Check-In</h3>
-                    <p className="text-sm text-muted-foreground">Available 24/7 with keyless entry</p>
+                    <p className="text-sm text-muted-foreground">Available with keyless entry</p>
                   </div>
                 </div>
               </div>
@@ -77,14 +77,14 @@ const Contact = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Rim Country Inn Location"
-              />
+                title="Rim Country Inn Location" />
+              
             </div>
           </div>
         </div>
       </Section>
-    </>
-  );
+    </>);
+
 };
 
 export default Contact;
