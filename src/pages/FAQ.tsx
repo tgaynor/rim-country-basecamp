@@ -3,14 +3,14 @@ import BookingButton from "@/components/BookingButton";
 import heroImage from "@/assets/hero-landscape.jpg";
 
 const faqs = [
-  { q: "What time is check-in?", a: "Check-in is at 3:00 PM. Early check-in may be available upon request, depending on room availability." },
-  { q: "What time is check-out?", a: "Check-out is at 11:00 AM. Late check-out may be available upon request." },
-  { q: "How does self check-in work?", a: "After booking, you'll receive instructions for our keyless self check-in system. You can arrive and access your room on your own schedule — no need to visit the front desk." },
-  { q: "Are pets allowed?", a: "Please contact us directly to discuss pet policies. We want to accommodate all our guests while keeping rooms clean and comfortable for everyone." },
+  { q: "What time is check-in?", a: "Check-in is at 3:00 PM. " },
+  { q: "What time is check-out?", a: "Check-out is at 11:00 AM. " },
+  { q: "How does self check-in work?", a: "After booking, you'll receive instructions for our keyless self check-in system. Prior to check in time, you will receive you unique access code via email and text. Check both. You can arrive and access your room at the check in time — no need to visit the front desk, we don't have one." },
+  { q: "Are animals allowed?", a: "Yes, we have a simple animal policy. We want to accommodate all our guests while keeping rooms clean and comfortable for everyone." },
   { q: "Is parking available?", a: "Yes! Free parking is available on-site for all guests, including standard vehicles." },
   { q: "Can I park a trailer?", a: "We have limited space for trailers and larger vehicles. Please contact us before your stay to confirm availability." },
   { q: "What is the cancellation policy?", a: "Cancellation policies may vary by rate and season. Please check the details during the booking process or contact us directly for questions." },
-  { q: "What are office hours?", a: "Our self check-in system is available 24/7. For assistance, please reach out via phone or email during business hours." },
+  { q: "What are office hours?", a: "We don't have an office on site. For assistance, please reach out via phone (text or call) or email during business hours." },
   { q: "How far is Payson from Phoenix?", a: "Payson is approximately 90 minutes northeast of Phoenix via AZ-87 (Beeline Highway). It's one of the most popular escapes for Valley residents." },
   { q: "What is there to do near the hotel?", a: "Rim Country Inn is surrounded by incredible outdoor recreation — hiking, fishing, golf, rivers, creeks, camping, off-roading, and the world-famous Payson Rodeo." },
 ];
