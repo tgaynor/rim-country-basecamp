@@ -16,7 +16,7 @@ import hotelExterior from "@/assets/hotel-exterior.jpg";
 
 const benefits = [
   { icon: Home, title: "Fully Remodeled", desc: "Every room updated with modern finishes and comfort." },
-  { icon: KeyRound, title: "Easy Self Check-In", desc: "Arrive on your schedule with hassle-free keyless entry." },
+  { icon: KeyRound, title: "Easy Self Check-In", desc: "Hassle-free keyless entry." },
   { icon: Mountain, title: "Adventure in Every Direction", desc: "Minutes from trails, lakes, rivers, and golf." },
   { icon: MapPin, title: "Central Payson Location", desc: "Steps from restaurants, shops, and services." },
   { icon: Compass, title: "Family-Owned Hospitality", desc: "Personal touches that big chains can't match." },
