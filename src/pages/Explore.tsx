@@ -49,7 +49,7 @@ const Explore = () => {
         <div className="relative z-10 container mx-auto px-4 md:px-8 text-center">
           <h1 className="font-display text-4xl md:text-6xl font-bold text-primary-foreground mb-4">Explore Payson, Arizona</h1>
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-            Adventure, nature, and world-class golf in the heart of Arizona's Rim Country.
+            Adventure, nature, cowboys, and world-class golf in the heart of Arizona's Rim Country.
           </p>
         </div>
       </section>
