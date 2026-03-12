@@ -11,9 +11,9 @@ const reasons = [
     desc: "Every room in our 23-unit property has been fully renovated with modern finishes, new furnishings, and updated bathrooms. You'll enjoy a clean, fresh, and comfortable space — not the tired rooms you might expect from a small-town hotel.",
   },
   {
-    icon: Heart,
-    title: "Family-Owned Hospitality",
-    desc: "We're not a faceless chain. Rim Country Inn is owned and operated by a family that takes pride in every guest experience. From the moment you arrive, you'll feel the personal touch that makes our hotel special.",
+    icon: DollarSign,
+    title: "Great Value",
+    desc: "We believe great rooms shouldn't cost a fortune. Our fully remodeled property offers exceptional comfort and cleanliness at a price that makes sense for travelers, families, and groups.",
   },
   {
     icon: MapPin,
@@ -21,9 +21,9 @@ const reasons = [
     desc: "Located on the Beeline Highway in central Payson, you're minutes from restaurants, shops, trails, lakes, and golf courses. It's the ideal basecamp for exploring everything Rim Country has to offer.",
   },
   {
-    icon: DollarSign,
-    title: "Great Value",
-    desc: "We believe great rooms shouldn't cost a fortune. Our fully remodeled property offers exceptional comfort and cleanliness at a price that makes sense for travelers, families, and groups.",
+    icon: Heart,
+    title: "Family-Owned Hospitality",
+    desc: "We're not a faceless chain. Rim Country Inn is owned and operated by a family that takes pride in every guest experience. From the moment you arrive, you'll feel the personal touch that makes our hotel special.",
   },
   {
     icon: KeyRound,
