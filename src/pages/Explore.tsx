@@ -30,7 +30,7 @@ const sections = [
   },
   {
     title: "Rodeo & Events",
-    image: hikingTrail,
+    image: rodeoEvents,
     content: "The world-famous Payson Rodeo draws visitors from across the country every August. Throughout the year, Payson hosts festivals, car shows, farmers markets, and seasonal celebrations that make every visit unique.",
   },
   {

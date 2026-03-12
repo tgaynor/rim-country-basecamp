@@ -34,7 +34,7 @@ const activities = [
   { icon: Fish, title: "Lakes & Fishing", image: lakeFishing },
   { icon: Waves, title: "Rivers & Creeks", image: riverCreek },
   { icon: Trophy, title: "World-Class Golf", image: golfCourse },
-  { icon: Calendar, title: "Rodeo & Events", image: hikingTrail },
+  { icon: Calendar, title: "Rodeo & Events", image: rodeoEvents },
   { icon: Sun, title: "Family Adventures", image: lakeFishing },
 ];
 
