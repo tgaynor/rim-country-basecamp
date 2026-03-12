@@ -11,6 +11,7 @@ import hikingTrail from "@/assets/hiking-trail.jpg";
 import lakeFishing from "@/assets/lake-fishing.jpg";
 import golfCourse from "@/assets/golf-course.jpg";
 import riverCreek from "@/assets/river-creek.jpg";
+import rodeoEvents from "@/assets/rodeo-events.jpg";
 import hotelExterior from "@/assets/hotel-exterior.jpg";
 
 const benefits = [
@@ -33,7 +34,7 @@ const activities = [
   { icon: Fish, title: "Lakes & Fishing", image: lakeFishing },
   { icon: Waves, title: "Rivers & Creeks", image: riverCreek },
   { icon: Trophy, title: "World-Class Golf", image: golfCourse },
-  { icon: Calendar, title: "Rodeo & Events", image: hikingTrail },
+  { icon: Calendar, title: "Rodeo & Events", image: rodeoEvents },
   { icon: Sun, title: "Family Adventures", image: lakeFishing },
 ];
 

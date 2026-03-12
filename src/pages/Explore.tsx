@@ -4,6 +4,7 @@ import hikingTrail from "@/assets/hiking-trail.jpg";
 import lakeFishing from "@/assets/lake-fishing.jpg";
 import riverCreek from "@/assets/river-creek.jpg";
 import golfCourse from "@/assets/golf-course.jpg";
+import rodeoEvents from "@/assets/rodeo-events.jpg";
 import heroImage from "@/assets/hero-landscape.jpg";
 
 const sections = [
@@ -29,7 +30,7 @@ const sections = [
   },
   {
     title: "Rodeo & Events",
-    image: hikingTrail,
+    image: rodeoEvents,
     content: "The world-famous Payson Rodeo draws visitors from across the country every August. Throughout the year, Payson hosts festivals, car shows, farmers markets, and seasonal celebrations that make every visit unique.",
   },
   {
