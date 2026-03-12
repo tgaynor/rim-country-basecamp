@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-landscape.jpg";
 const faqs = [
   { q: "What time is check-in?", a: "Check-in is at 3:00 PM. " },
   { q: "What time is check-out?", a: "Check-out is at 11:00 AM. " },
-  { q: "How does self check-in work?", a: "After booking, you'll receive instructions for our keyless self check-in system. Prior to check in time, you will receive you unique access code via email and text. Check both. You can arrive and access your room at the check in time — no need to visit the front desk, we don't have one." },
+  { q: "How does self check-in work?", a: "After booking, you'll receive instructions for our keyless self check-in system. Prior to check in time, you will receive your unique access code via email and text. Check both. You can arrive and access your room at the check in time — no need to visit the front desk, we don't have one." },
   { q: "Are animals allowed?", a: "Yes, we have a simple animal policy. We want to accommodate all our guests while keeping rooms clean and comfortable for everyone." },
   { q: "Is parking available?", a: "Yes! Free parking is available on-site for all guests, including standard vehicles." },
   { q: "Can I park a trailer?", a: "We have limited space for trailers and larger vehicles. Please contact us before your stay to confirm availability." },
