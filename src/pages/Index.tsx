@@ -1,21 +1,5 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
-import {
-  Mountain,
-  Home,
-  KeyRound,
-  MapPin,
-  Compass,
-  TreePine,
-  Fish,
-  Waves,
-  Tent,
-  Car,
-  Eye,
-  Trophy,
-  Calendar,
-  Sun,
-} from "lucide-react";
+import { Mountain, Home, KeyRound, MapPin, Compass, TreePine, Fish, Waves, Tent, Car, Eye, Trophy, Calendar, Sun } from "lucide-react";
 import Section from "@/components/Section";
 import BookingButton from "@/components/BookingButton";
 import heroImage from "@/assets/hero-landscape.jpg";
@@ -39,30 +23,10 @@ const benefits = [
 ];
 
 const rooms = [
-  {
-    name: "Single Queen",
-    image: roomQueen,
-    guests: "1–2 Guests",
-    desc: "Ideal for solo travelers or couples. Remodeled room with modern finishes.",
-  },
-  {
-    name: "Single King",
-    image: roomKing,
-    guests: "1–2 Guests",
-    desc: "Extra space for couples. King bed with contemporary furnishings.",
-  },
-  {
-    name: "Double Queen",
-    image: roomDoubleQueen,
-    guests: "2–4 Guests",
-    desc: "Perfect for families or small groups. Two comfortable queen beds.",
-  },
-  {
-    name: "3 Bed / 2 Bath Suite",
-    image: roomSuite,
-    guests: "4–8 Guests",
-    desc: "Our largest option. Three bedrooms, two bathrooms — great for groups.",
-  },
+  { name: "Single Queen", image: roomQueen, guests: "1–2 Guests", desc: "Ideal for solo travelers or couples. Remodeled room with modern finishes." },
+  { name: "Single King", image: roomKing, guests: "1–2 Guests", desc: "Extra space for couples. King bed with contemporary furnishings." },
+  { name: "Double Queen", image: roomDoubleQueen, guests: "2–4 Guests", desc: "Perfect for families or small groups. Two comfortable queen beds." },
+  { name: "3 Bed / 2 Bath Suite", image: roomSuite, guests: "4–8 Guests", desc: "Our largest option. Three bedrooms, two bathrooms — great for groups." },
 ];
 
 const activities = [
@@ -77,16 +41,6 @@ const activities = [
 const Index = () => {
   return (
     <>
-      <Helmet>
-        <title>Rim Country Inn | Hotel in Payson Arizona Near the Mogollon Rim</title>
-        <meta
-          name="description"
-          content="Rim Country Inn is a fully remodeled hotel in Payson, Arizona near the Mogollon Rim. Self check-in, modern rooms, and minutes from hiking, lakes, rivers, creeks, and world-class golf. Book direct for the best rates."
-        />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://rimcountryinnpayson.com/" />
-      </Helmet>
-
       {/* Hero */}
       <section className="relative h-screen min-h-[600px] flex items-center">
         <img
@@ -99,11 +53,11 @@ const Index = () => {
         <div className="relative z-10 container mx-auto px-4 md:px-8">
           <div className="max-w-3xl">
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-              Stay Close to the Rim. Sleep <span className="italic">Better</span> in Payson.
+              Stay Close to the Rim.{" "}
+              Sleep <span className="italic">Better</span> in Payson.
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 mb-10 max-w-2xl leading-relaxed">
-              A fully remodeled, family-owned self-serve hotel in the heart of Payson, Arizona — minutes from hiking
-              trails, lakes, rivers, creeks, and world-class golf.
+              A fully remodeled, family-owned self-serve hotel in the heart of Payson, Arizona — minutes from hiking trails, lakes, rivers, creeks, and world-class golf.
             </p>
             <div className="flex flex-wrap gap-4">
               <BookingButton variant="primary" size="lg">
@@ -154,10 +108,7 @@ const Index = () => {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {rooms.map((room) => (
-              <div
-                key={room.name}
-                className="bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow group"
-              >
+              <div key={room.name} className="bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow group">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
                     src={room.image}
@@ -187,12 +138,10 @@ const Index = () => {
             <div>
               <p className="text-sm font-semibold uppercase tracking-widest text-primary mb-3">Adventure Starts Here</p>
               <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-6">
-                Your Gateway to Arizona&apos;s Rim Country
+                Your Gateway to Arizona's Rim Country
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Payson sits at the base of the Mogollon Rim, one of Arizona&apos;s most dramatic natural landmarks. From
-                world-class hiking and fishing to scenic golf courses and the famous Payson Rodeo, adventure is always
-                minutes away.
+                Payson sits at the base of the Mogollon Rim, one of Arizona's most dramatic natural landmarks. From world-class hiking and fishing to scenic golf courses and the famous Payson Rodeo, adventure is always minutes away.
               </p>
               <div className="grid grid-cols-2 gap-3 mb-8">
                 {[
@@ -211,33 +160,15 @@ const Index = () => {
                   </div>
                 ))}
               </div>
-              <BookingButton variant="primary">Book Your Adventure</BookingButton>
+              <BookingButton variant="primary">
+                Book Your Adventure
+              </BookingButton>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img
-                src={hikingTrail}
-                alt="Hiking trail near Payson"
-                className="rounded-lg object-cover w-full h-48 md:h-64"
-                loading="lazy"
-              />
-              <img
-                src={golfCourse}
-                alt="Golf course near Payson"
-                className="rounded-lg object-cover w-full h-48 md:h-64 mt-8"
-                loading="lazy"
-              />
-              <img
-                src={riverCreek}
-                alt="Creek near Payson"
-                className="rounded-lg object-cover w-full h-48 md:h-64"
-                loading="lazy"
-              />
-              <img
-                src={lakeFishing}
-                alt="Lake fishing near Payson"
-                className="rounded-lg object-cover w-full h-48 md:h-64 mt-8"
-                loading="lazy"
-              />
+              <img src={hikingTrail} alt="Hiking trail near Payson" className="rounded-lg object-cover w-full h-48 md:h-64" loading="lazy" />
+              <img src={golfCourse} alt="Golf course near Payson" className="rounded-lg object-cover w-full h-48 md:h-64 mt-8" loading="lazy" />
+              <img src={riverCreek} alt="Creek near Payson" className="rounded-lg object-cover w-full h-48 md:h-64" loading="lazy" />
+              <img src={lakeFishing} alt="Lake fishing near Payson" className="rounded-lg object-cover w-full h-48 md:h-64 mt-8" loading="lazy" />
             </div>
           </div>
         </div>
@@ -249,12 +180,16 @@ const Index = () => {
           <div className="text-center mb-16">
             <p className="text-sm font-semibold uppercase tracking-widest text-earth mb-3">Explore Payson</p>
             <h2 className="font-display text-3xl md:text-5xl font-bold text-primary-foreground">
-              Discover What&apos;s Waiting
+              Discover What's Waiting
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {activities.map((act) => (
-              <Link key={act.title} to="/explore" className="relative rounded-lg overflow-hidden aspect-[3/2] group">
+              <Link
+                key={act.title}
+                to="/explore"
+                className="relative rounded-lg overflow-hidden aspect-[3/2] group"
+              >
                 <img
                   src={act.image}
                   alt={act.title}
@@ -300,13 +235,10 @@ const Index = () => {
                 Family-Owned. Guest-Focused.
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Rim Country Inn isn&apos;t just a place to sleep — it&apos;s a place where every detail is cared for by
-                the family who owns it. We&apos;ve fully remodeled every room to give our guests a clean, comfortable,
-                and modern experience at a price that makes sense.
+                Rim Country Inn isn't just a place to sleep — it's a place where every detail is cared for by the family who owns it. We've fully remodeled every room to give our guests a clean, comfortable, and modern experience at a price that makes sense.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Whether you&apos;re here for a weekend escape from Phoenix, a week-long golf trip, or a family adventure
-                in the Tonto National Forest, we&apos;re here to make sure your stay is exactly what you need.
+                Whether you're here for a weekend escape from Phoenix, a week-long golf trip, or a family adventure in the Tonto National Forest, we're here to make sure your stay is exactly what you need.
               </p>
               <Link
                 to="/why-stay"
