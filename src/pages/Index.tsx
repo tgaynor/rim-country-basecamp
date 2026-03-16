@@ -54,10 +54,10 @@ const Index = () => {
           <div className="max-w-3xl">
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
               Stay Close to the Rim.{" "}
-              <span className="italic">Sleep Better in Payson.</span>
+              Sleep <span className="italic">Better</span> in Payson.
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 mb-10 max-w-2xl leading-relaxed">
-              A fully remodeled, family-owned hotel in the heart of Payson, Arizona — minutes from hiking trails, lakes, rivers, creeks, and world-class golf.
+              A fully remodeled, family-owned self-serve hotel in the heart of Payson, Arizona — minutes from hiking trails, lakes, rivers, creeks, and world-class golf.
             </p>
             <div className="flex flex-wrap gap-4">
               <BookingButton variant="primary" size="lg">
