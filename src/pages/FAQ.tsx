@@ -3,7 +3,7 @@ import BookingButton from "@/components/BookingButton";
 import heroImage from "@/assets/hero-landscape.jpg";
 
 const faqs = [
-  { q: "What time is check-in?", a: "Check-in is at 3:00 PM. " },
+  { q: "What time is check-in?", a: "Check-in is at 4:00 PM. " },
   { q: "What time is check-out?", a: "Check-out is at 11:00 AM. " },
   { q: "How does self check-in work?", a: "After booking, you'll receive instructions for our keyless self check-in system. Prior to check in time, you will receive your unique access code via email and text. Check both. You can arrive and access your room at the check in time — no need to visit the front desk, we don't have one." },
   { q: "Are animals allowed?", a: "Yes, we have a simple animal policy. We want to accommodate all our guests while keeping rooms clean and comfortable for everyone." },
