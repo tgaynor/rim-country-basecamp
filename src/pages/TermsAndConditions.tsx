@@ -138,6 +138,127 @@ const TermsAndConditions = () => {
             Your phone number is used only for transactional purposes and is not shared with third parties for marketing. See our full{" "}
             <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a> for details.
           </p>
+
+          <div className="section-divider my-12" />
+
+          <h2 className="font-display text-xl font-semibold text-foreground mt-10 mb-3">
+            We Are a Fully Automated Hotel
+          </h2>
+          <p className="text-muted-foreground leading-relaxed">
+            Guests will receive an email, text, or message on the booking platform they used (Booking.com etc) at time of check-in with room number and access code. It is imperative to provide proper contact info to receive this information in a timely manner.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Cancellation Policy
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            Cancellations must be done 5 days prior to the reservation depending on which platform you booked through. Cancellation fee is the cost of the first night. ALL CANCELLATIONS MUST AND CAN ONLY BE MADE THROUGH THE ORIGINAL BOOKING PLATFORM OR SOURCE. We do not accept cancellations by Email or Phone. Thank you for understanding.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            1. At Check-In
+          </h3>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            You must be 18 years old and present to check into a room. A valid photo ID is required upon check-in.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Guests are kindly requested to adhere to the designated check-in time between 4:00 PM and 9:00 PM and the check-out time of 11:00 AM. Requests for early check-in or late check-out are subject to availability and may incur additional charges.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            Two adults maximum for rooms with a single bed (Queen or King) and four people max for rooms with two beds. Additional persons may be accommodated for a fee. We love hosting families - bring the kids!
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            2. Operating Hours
+          </h3>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Self check-in is available at 4:00 PM.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            Self-check out is available 24/7.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            3. Room Damages
+          </h3>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Guests are responsible for the care and upkeep of their accommodations. Any damages to the room or its contents, whether accidental or otherwise, shall be subject to additional charges to cover the cost of repair or replacement.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            A room hold of up to $100 may be placed at check-in, at manager's discretion.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            4. Disturbances and Refusal of Service
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            In the interest of maintaining a peaceful and hospitable environment for all patrons, management reserves the unequivocal right to expel any guests who engage in disruptive behavior or violate established policies. Furthermore, management retains the discretion to refuse service to any individual or group whose conduct is deemed incompatible with the ethos of our establishment.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            5. Cooking Restrictions
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            For reasons of safety and preservation of our facilities, the use of hotplates, portable stoves, or any other external cooking apparatus within the confines of guest rooms is strictly prohibited. Guests are encouraged to utilize the dining facilities and amenities provided for their culinary needs.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            6. Pets Policy
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            We extend a warm welcome to guests traveling with small pets, subject to prior approval and the payment of specified pet fees. To ensure the comfort and well-being of all guests, individuals intending to bring pets are advised to consult with management regarding applicable policies and associated charges before arrival.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            7. Parking
+          </h3>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            One free parking spot per room reserved in the self-serve parking lot on property.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            For additional parking spots, please inquire with management regarding availability.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            8. Liability Disclaimer
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            While every reasonable effort is made to ensure the safety and security of our guests and their belongings, the management of Rim Country Inn disclaims any and all liability for loss, damage, or injury sustained during the course of a guest's stay. Guests are encouraged to exercise due diligence in safeguarding their personal effects and valuables.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            9. Stairs Related Injury Specific Waiver
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            While every reasonable effort is made to ensure the safety and security of our guests and their belongings, the management of Rim Country Inn disclaims any and all liability for loss, damage, or injury sustained during the course of a guest's stay. Guests are encouraged to exercise due diligence in safeguarding their personal effects and valuables. Not disclaiming any other waivers, this waiver in particular waives any and all claims by any person, and any and all liability to any person or business, related to stairs, steps or falls on the Rim Country Inn property. If persons are not comfortable navigating the property, it is their duty to leave and find service elsewhere.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            10. Smoking Restrictions
+          </h3>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Guests may not smoke marijuana at any time on the premises - either in their room or on the property. The strong smell receives instant complaints. Any guests smoking marijuana will be immediately fined a non-refundable $250 fee, and asked to leave the premises. If they fail to comply with either, the Payson PD will arrive to handle trespassing.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            Please do not smoke cigarettes directly next to other guests' windows, as they may be disturbed by the smell through their windows and coming and going. Smoking cigarettes is not allowed in rooms other than the designated Smoking Rooms. Any smoking of cigarettes in non-smoking designated rooms will result in an immediate, non-refundable $250 fine and eviction from the premises.
+          </p>
+
+          <div className="section-divider my-12" />
+
+          <p className="text-muted-foreground leading-relaxed">
+            Please review these terms and conditions thoroughly, as they form the basis of our contractual agreement with guests. Should you have any queries or require further clarification, please do not hesitate to contact our team for assistance.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Implied Consent
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            By staying at the Rim Country Inn, by stepping foot on the property, by paying for any services or using any services, or by even thinking about the Rim Country Inn, all persons agree to the following terms and conditions and otherwise shall be classified as trespassers.
+          </p>
+
+          <p className="text-muted-foreground leading-relaxed mt-6">
+            We respect your privacy and only use your information to provide hotel services. By giving us your mobile number, you agree to receive SMS messages about reservations, updates, or offers. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. We never sell or share your information with third parties for marketing.
+          </p>
         </div>
       </Section>
     </div>
