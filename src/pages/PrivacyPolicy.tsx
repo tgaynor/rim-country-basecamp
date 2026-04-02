@@ -95,6 +95,57 @@ const PrivacyPolicy = () => {
             <li>Phone: <a href={`tel:${PHONE}`} className="text-primary hover:underline">{PHONE}</a></li>
             <li>Address: {ADDRESS}</li>
           </ul>
+
+          <div className="section-divider my-12" />
+
+          <h2 className="font-display text-xl font-semibold text-foreground mt-10 mb-3">
+            SMS / Text Messaging Privacy Policy
+          </h2>
+          <p className="text-muted-foreground leading-relaxed">
+            At The Rim Country Inn, we respect your privacy. This Privacy Policy explains how we collect, use, and protect your information when you provide your mobile phone number for transactional SMS communications.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Information We Collect
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            We collect your mobile phone number when you provide it during online booking, at check-in, or when you voluntarily opt-in to receive service-related notifications.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            How We Use Your Information
+          </h3>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            We use your phone number solely to send transactional SMS messages related to your stay, including:
+          </p>
+          <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+            <li>Room number assignment</li>
+            <li>Door access codes</li>
+            <li>Check-in and check-out instructions</li>
+            <li>Housekeeping and operational updates</li>
+          </ul>
+          <p className="text-muted-foreground leading-relaxed mt-3">
+            We do not use your phone number for marketing or promotional messages. We do not sell, rent, or share your phone number with any third parties for marketing purposes.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Opt-Out
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            You may opt-out of receiving SMS messages at any time by replying STOP to any message we send. You may also contact us at{" "}
+            <a href={`mailto:${EMAIL}`} className="text-primary hover:underline">{EMAIL}</a>.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Data Security
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            We take reasonable measures to protect your information. However, no system is completely secure.
+          </p>
+
+          <p className="text-muted-foreground leading-relaxed mt-6">
+            By providing your mobile number, you consent to receive these transactional SMS messages.
+          </p>
         </div>
       </Section>
     </div>
