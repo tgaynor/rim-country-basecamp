@@ -10,6 +10,7 @@ import Explore from "./pages/Explore";
 import WhyStay from "./pages/WhyStay";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
