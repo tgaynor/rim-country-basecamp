@@ -85,6 +85,59 @@ const TermsAndConditions = () => {
             <li>Phone: <a href={`tel:${PHONE}`} className="text-primary hover:underline">{PHONE}</a></li>
             <li>Address: {ADDRESS}</li>
           </ul>
+
+          <div className="section-divider my-12" />
+
+          <h2 className="font-display text-xl font-semibold text-foreground mt-10 mb-3">
+            SMS Notification Program
+          </h2>
+          <p className="text-muted-foreground leading-relaxed">
+            The Rim Country Inn offers a transactional SMS notification program ("Hotel SMS Service") to improve guest experience and streamline internal operations.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Program Description
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            Guests who provide their mobile phone number during booking or check-in will receive important service-related SMS messages such as room assignments, door access codes, check-in instructions, and stay updates. Hotel staff and owners may also receive internal operational messages for housekeeping coordination and property management.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Message Frequency
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            Guests typically receive 2–5 messages per stay. Staff may receive operational messages as needed.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Message and Data Rates
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            Message and data rates may apply. Charges are billed by your mobile carrier. Contact your carrier for details.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Support and Help
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            For help or more information, reply HELP to any message or contact us at{" "}
+            <a href="mailto:george@pghappyjackholdings.com" className="text-primary hover:underline">george@pghappyjackholdings.com</a>.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Opt-Out Instructions
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            To stop receiving messages, reply STOP to any message we send. You will receive one final confirmation message and will no longer receive SMS from this program. You may re-opt-in at any time by providing your number again.
+          </p>
+
+          <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
+            Privacy
+          </h3>
+          <p className="text-muted-foreground leading-relaxed">
+            Your phone number is used only for transactional purposes and is not shared with third parties for marketing. See our full{" "}
+            <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a> for details.
+          </p>
         </div>
       </Section>
     </div>
