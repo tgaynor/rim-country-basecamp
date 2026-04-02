@@ -71,6 +71,7 @@ const Footer = () => {
         <div className="flex items-center justify-center gap-4 text-xs text-primary-foreground/40">
           <span>© {new Date().getFullYear()} Rim Country Inn. All rights reserved.</span>
           <Link to="/privacy-policy" className="hover:text-primary-foreground/70 transition-colors underline">Privacy Policy</Link>
+          <Link to="/terms-and-conditions" className="hover:text-primary-foreground/70 transition-colors underline">Terms &amp; Conditions</Link>
         </div>
       </div>
     </footer>
