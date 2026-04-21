@@ -126,7 +126,7 @@ const Index = () => {
         <div className="relative z-10 container mx-auto px-4 md:px-8">
           <div className="max-w-3xl">
             <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-              Stay Close to the Rim. Sleep <span className="italic">Better</span> in Payson.
+              Fully automated, with no check-in desk or line.
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 mb-10 max-w-2xl leading-relaxed">
               A fully remodeled, family-owned self-serve hotel in the heart of Payson, Arizona — minutes from hiking
