@@ -211,6 +211,8 @@ const Index = () => {
         </div>
       </Section>
 
+      <PolarisRentalSection />
+
       {/* Adventure Section */}
       <Section className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-4 md:px-8">
