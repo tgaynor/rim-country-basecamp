@@ -6,6 +6,9 @@ import riverCreek from "@/assets/river-creek.jpg";
 import golfCourse from "@/assets/golf-course.jpg";
 import rodeoEvents from "@/assets/rodeo-events.jpg";
 import heroImage from "@/assets/hero-landscape.jpg";
+import polarisRzr from "@/assets/polaris-rzr.jpg";
+
+const ATV_AFFILIATE_URL = "https://adventures.polaris.com/adventure/off-road-rentals-payson-star-valley-arizona-P-6JD-3V7/book?promoCode=az15";
 
 const sections = [
   {
