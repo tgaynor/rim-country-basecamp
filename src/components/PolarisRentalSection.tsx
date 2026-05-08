@@ -21,11 +21,11 @@ const PolarisRentalSection = ({ className = "py-20 md:py-24 bg-background" }: Po
               className="rounded-lg shadow-lg w-full aspect-[4/3] object-cover bg-secondary"
               loading="lazy"
             />
-            <div className="absolute bottom-3 right-3 bg-background/90 backdrop-blur-sm rounded-md p-2 shadow-md">
+            <div className="absolute bottom-3 right-3 bg-charcoal rounded-md p-3 shadow-lg">
               <img
                 src={arizonaAdventuresLogo}
                 alt="Arizona Adventures logo"
-                className="h-10 w-auto"
+                className="h-12 w-auto"
                 loading="lazy"
               />
             </div>
