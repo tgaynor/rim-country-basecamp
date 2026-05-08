@@ -29,6 +29,7 @@ import golfCourse from "@/assets/golf-course.jpg";
 import riverCreek from "@/assets/river-creek.jpg";
 import rodeoEvents from "@/assets/rodeo-events.jpg";
 import hotelExterior from "@/assets/hotel-exterior.jpg";
+import PolarisRentalSection from "@/components/PolarisRentalSection";
 
 const benefits = [
   { icon: Home, title: "Fully Remodeled", desc: "Every room updated with modern finishes and comfort." },
@@ -209,6 +210,8 @@ const Index = () => {
           </div>
         </div>
       </Section>
+
+      <PolarisRentalSection />
 
       {/* Adventure Section */}
       <Section className="py-20 md:py-28 bg-background">
