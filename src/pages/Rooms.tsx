@@ -32,7 +32,7 @@ const roomData = [
     name: "3 Bedroom / 2 Bath Suite",
     image: roomSuite,
     guests: "4–8 Guests",
-    tagline: "Ideal for families, golf groups, or extended stays.",
+    tagline: "Our largest option. Full kitchen, three bedrooms, two bathrooms and a sofabed — great for larger groups.",
     features: ["Three bedrooms", "Two bathrooms", "Spacious living area", "Great for groups", "Full remodel", "Self check-in"],
   },
 ];
