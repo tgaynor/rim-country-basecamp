@@ -3,7 +3,7 @@ import polarisRzr from "@/assets/polaris-rzr.jpg";
 import arizonaAdventuresLogo from "@/assets/arizona-adventures-logo.svg";
 
 const ATV_AFFILIATE_URL =
-  "https://adventures.polaris.com/adventure/off-road-rentals-payson-star-valley-arizona-P-6JD-3V7/book?promoCode=az15";
+  "https://adventures.polaris.com/adventure/off-road-rentals-payson-star-valley-arizona-P-6JD-3V7/book?promoCode=RCI";
 
 interface PolarisRentalSectionProps {
   className?: string;
@@ -35,15 +35,15 @@ const PolarisRentalSection = ({ className = "py-20 md:py-24 bg-background" }: Po
               Exclusive Rim Country Inn Guest Offer
             </p>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Save 15% on Polaris RZR Rentals — Just for Our Guests
+              Save 20% on Polaris RZR Rentals — Just for Our Guests
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              We&apos;ve partnered with Arizona Adventures to give Rim Country Inn guests a special 15% discount on
+              We&apos;ve partnered with Arizona Adventures to give Rim Country Inn guests a special 20% discount on
               brand-new high-end Polaris RZR rentals in Payson and Star Valley. Hit the trails along the Mogollon Rim
               and turn your stay into a true backcountry adventure — just minutes from the inn.
             </p>
             <p className="text-foreground font-semibold mb-6">
-              Use our exclusive guest link to automatically apply your 15% discount.
+              Use our exclusive guest link to automatically apply your 20% discount.
             </p>
             <a
               href={ATV_AFFILIATE_URL}
@@ -51,7 +51,7 @@ const PolarisRentalSection = ({ className = "py-20 md:py-24 bg-background" }: Po
               rel="noopener noreferrer"
               className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-md text-sm font-semibold hover:bg-pine-light transition-colors"
             >
-              Claim Your 15% Guest Discount
+              Claim Your 20% Guest Discount
             </a>
           </div>
         </div>
