@@ -62,7 +62,7 @@ const rooms = [
     name: "3 Bed / 2 Bath Suite",
     image: roomSuite,
     guests: "4–8 Guests",
-    desc: "Our largest option. Three bedrooms, two bathrooms — great for groups.",
+    desc: "Our largest option. Full kitchen, three bedrooms, two bathrooms and a sofabed — great for larger groups.",
   },
 ];
 
