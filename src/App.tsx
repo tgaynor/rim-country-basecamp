@@ -17,12 +17,24 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const PrerenderReady = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const id = window.setTimeout(() => {
+      document.dispatchEvent(new Event("render-event"));
+    }, 50);
+    return () => window.clearTimeout(id);
+  }, [pathname]);
+  return null;
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <PrerenderReady />
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
@@ -42,3 +54,4 @@ const App = () => (
 );
 
 export default App;
+
