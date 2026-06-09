@@ -40,7 +40,6 @@ export default defineConfig(({ mode }) => ({
             /<html(.*?)>/i,
             '<html$1 data-prerendered="true">',
           );
-          return rendered;
         },
       }),
   ].filter(Boolean),
