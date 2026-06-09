@@ -1,9 +1,15 @@
 import Section from "@/components/Section";
+import Seo from "@/components/Seo";
 import { EMAIL, PHONE, ADDRESS } from "@/lib/constants";
 
 const PrivacyPolicy = () => {
   return (
     <div className="pt-20">
+      <Seo
+        title="Privacy Policy | Rim Country Inn Payson AZ"
+        description="How Rim Country Inn collects, uses, and protects guest information at our Payson, AZ hotel and on this website."
+        path="/privacy-policy"
+      />
       <Section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto prose prose-neutral dark:prose-invert">
           <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
