@@ -1,4 +1,5 @@
 import Section from "@/components/Section";
+import Seo from "@/components/Seo";
 import BookingButton from "@/components/BookingButton";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { PHONE, EMAIL, ADDRESS } from "@/lib/constants";
@@ -7,6 +8,11 @@ import hotelExterior from "@/assets/hotel-exterior.jpg";
 const Contact = () => {
   return (
     <>
+      <Seo
+        title="Contact Rim Country Inn | Payson AZ Hotel"
+        description="Get in touch with Rim Country Inn in Payson, AZ. Phone, email, and address for our self check-in hotel near the Mogollon Rim."
+        path="/contact"
+      />
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <img src={hotelExterior} alt="Rim Country Inn" className="absolute inset-0 w-full h-full object-cover" />
         <div className="hero-overlay absolute inset-0" />
