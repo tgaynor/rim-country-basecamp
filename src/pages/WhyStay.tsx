@@ -1,4 +1,5 @@
 import Section from "@/components/Section";
+import Seo from "@/components/Seo";
 import BookingButton from "@/components/BookingButton";
 import { Home, KeyRound, MapPin, DollarSign, Heart } from "lucide-react";
 import hotelExterior from "@/assets/hotel-exterior.jpg";
@@ -35,6 +36,11 @@ const reasons = [
 const WhyStay = () => {
   return (
     <>
+      <Seo
+        title="Why Stay at Rim Country Inn | Payson AZ Hotel"
+        description="Family-owned, fully remodeled 23-room hotel in Payson, AZ. Self check-in, great value, central location near the Mogollon Rim."
+        path="/why-stay"
+      />
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <img src={hotelExterior} alt="Rim Country Inn exterior" className="absolute inset-0 w-full h-full object-cover" />
         <div className="hero-overlay absolute inset-0" />

@@ -1,4 +1,5 @@
 import Section from "@/components/Section";
+import Seo from "@/components/Seo";
 import BookingButton from "@/components/BookingButton";
 import heroImage from "@/assets/hero-landscape.jpg";
 
@@ -15,9 +16,25 @@ const faqs = [
   { q: "What is there to do near the hotel?", a: "Rim Country Inn is surrounded by incredible outdoor recreation — hiking, fishing, golf, rivers, creeks, camping, off-roading, and the world-famous Payson Rodeo." },
 ];
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a.trim() },
+  })),
+};
+
 const FAQ = () => {
   return (
     <>
+      <Seo
+        title="FAQ | Rim Country Inn Payson AZ Hotel"
+        description="Answers about self check-in, check-in/out times, parking, animals, and cancellations at Rim Country Inn in Payson, AZ."
+        path="/faq"
+        jsonLd={faqJsonLd}
+      />
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <img src={heroImage} alt="Payson landscape" className="absolute inset-0 w-full h-full object-cover" />
         <div className="hero-overlay absolute inset-0" />
@@ -31,6 +48,7 @@ const FAQ = () => {
 
       <Section className="py-20 md:py-28 bg-background">
         <div className="container mx-auto px-4 md:px-8 max-w-3xl">
+          <h2 className="sr-only">Common questions</h2>
           <div className="space-y-6">
             {faqs.map((faq) => (
               <div key={faq.q} className="bg-card rounded-lg p-6 shadow-sm border border-border">

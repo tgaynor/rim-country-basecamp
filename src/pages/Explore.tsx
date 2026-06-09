@@ -1,4 +1,5 @@
 import Section from "@/components/Section";
+import Seo from "@/components/Seo";
 import BookingButton from "@/components/BookingButton";
 import hikingTrail from "@/assets/hiking-trail.jpg";
 import lakeFishing from "@/assets/lake-fishing.jpg";
@@ -44,6 +45,11 @@ const sections = [
 const Explore = () => {
   return (
     <>
+      <Seo
+        title="Explore Payson AZ | Hiking, Lakes, Golf & Rim Country"
+        description="Discover hiking, lakes, rivers, golf, and rodeo near Payson, AZ. Plan your Rim Country adventure from Rim Country Inn."
+        path="/explore"
+      />
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <img src={heroImage} alt="Payson landscape" className="absolute inset-0 w-full h-full object-cover" />
         <div className="hero-overlay absolute inset-0" />

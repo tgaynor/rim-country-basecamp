@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import Seo from "@/components/Seo";
 import {
   Mountain,
   Home,
@@ -76,45 +76,13 @@ const activities = [
 ];
 
 const Index = () => {
-  useEffect(() => {
-    document.title = "Rim Country Inn | Hotel in Payson Arizona Near the Mogollon Rim";
-
-    const metaDescription = document.querySelector('meta[name="description"]');
-    const description =
-      "Rim Country Inn is a fully remodeled hotel in Payson, Arizona near the Mogollon Rim. Self check-in, modern rooms, and minutes from hiking, lakes, rivers, creeks, and world-class golf. Book direct for the best rates.";
-
-    if (metaDescription) {
-      metaDescription.setAttribute("content", description);
-    } else {
-      const meta = document.createElement("meta");
-      meta.name = "description";
-      meta.content = description;
-      document.head.appendChild(meta);
-    }
-
-    const robotsMeta = document.querySelector('meta[name="robots"]');
-    if (robotsMeta) {
-      robotsMeta.setAttribute("content", "index, follow");
-    } else {
-      const meta = document.createElement("meta");
-      meta.name = "robots";
-      meta.content = "index, follow";
-      document.head.appendChild(meta);
-    }
-
-    let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
-    if (canonical) {
-      canonical.href = "https://rimcountryinnpayson.com/";
-    } else {
-      canonical = document.createElement("link");
-      canonical.rel = "canonical";
-      canonical.href = "https://rimcountryinnpayson.com/";
-      document.head.appendChild(canonical);
-    }
-  }, []);
-
   return (
     <>
+      <Seo
+        title="Rim Country Inn | Payson AZ Hotel Near the Mogollon Rim"
+        description="Renovated hotel in Payson, AZ near the Mogollon Rim. Clean, affordable rooms close to hiking, lakes, and golf. Book direct for the best rate."
+        path="/"
+      />
       {/* Hero */}
       <section className="relative h-screen min-h-[600px] flex items-center">
         <img

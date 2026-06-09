@@ -1,5 +1,6 @@
+import { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -16,12 +17,24 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const PrerenderReady = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const id = window.setTimeout(() => {
+      document.dispatchEvent(new Event("render-event"));
+    }, 50);
+    return () => window.clearTimeout(id);
+  }, [pathname]);
+  return null;
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <PrerenderReady />
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
@@ -41,3 +54,4 @@ const App = () => (
 );
 
 export default App;
+

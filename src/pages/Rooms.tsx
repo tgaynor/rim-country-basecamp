@@ -1,4 +1,5 @@
 import Section from "@/components/Section";
+import Seo from "@/components/Seo";
 import BookingButton from "@/components/BookingButton";
 import roomQueen from "@/assets/room-queen.jpg";
 import roomKing from "@/assets/room-king.jpg";
@@ -40,6 +41,11 @@ const roomData = [
 const Rooms = () => {
   return (
     <>
+      <Seo
+        title="Rooms | Rim Country Inn — Payson AZ Hotel"
+        description="Remodeled queen, king, double-queen, and 3-bedroom suite rooms at Rim Country Inn in Payson, AZ. Modern, clean, self check-in. Book direct."
+        path="/rooms"
+      />
       {/* Hero */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <img src={heroImage} alt="Payson landscape" className="absolute inset-0 w-full h-full object-cover" />
