@@ -1,9 +1,15 @@
 import Section from "@/components/Section";
+import Seo from "@/components/Seo";
 import { EMAIL, PHONE, ADDRESS } from "@/lib/constants";
 
 const TermsAndConditions = () => {
   return (
     <div className="pt-20">
+      <Seo
+        title="Terms & Conditions | Rim Country Inn Payson AZ"
+        description="Terms and conditions for booking and staying at Rim Country Inn, a self-serve hotel in Payson, Arizona."
+        path="/terms-and-conditions"
+      />
       <Section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto prose prose-neutral dark:prose-invert">
           <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
