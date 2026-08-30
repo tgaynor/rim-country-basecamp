@@ -23,21 +23,58 @@
     {
       "@context": "https://schema.org",
       "@type": "Hotel",
+      "@id": "https://rimcountryinnpayson.com/#hotel",
       "name": "Rim Country Inn",
       "description": "Affordable, fully renovated 23-room independent hotel in Payson, Arizona, near the Mogollon Rim — close to hiking, lakes, rivers, and golf.",
       "url": "https://rimcountryinnpayson.com",
       "telephone": "+1-928-233-6029",
-      "address": {"@type":"PostalAddress","streetAddress":"811 S Beeline Hwy","addressLocality":"Payson","addressRegion":"AZ","postalCode":"85541","addressCountry":"US"},
+      "email": "hello@rimcountryinnpayson.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "811 S Beeline Hwy",
+        "addressLocality": "Payson",
+        "addressRegion": "AZ",
+        "postalCode": "85541",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.2308",
+        "longitude": "-111.3253"
+      },
       "numberOfRooms": 23,
       "priceRange": "$$",
-      "checkinTime": "15:00",
+      "checkinTime": "16:00",
       "checkoutTime": "11:00",
-      "image": ["https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/70ba56a3-9db2-4d88-8885-29f4e125186e/id-preview-b3bcc0df--059f9e8f-83f4-4c54-b9b6-bfc5697f8b31.lovable.app-1773345980983.png"],
+      "petsAllowed": true,
+      "paymentAccepted": "Cash, Credit Card, Debit Card",
+      "currenciesAccepted": "USD",
+      "image": [
+        "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/70ba56a3-9db2-4d88-8885-29f4e125186e/id-preview-b3bcc0df--059f9e8f-83f4-4c54-b9b6-bfc5697f8b31.lovable.app-1773345980983.png"
+      ],
       "amenityFeature": [
         {"@type":"LocationFeatureSpecification","name":"Free WiFi","value":true},
         {"@type":"LocationFeatureSpecification","name":"Free Parking","value":true},
         {"@type":"LocationFeatureSpecification","name":"Air Conditioning","value":true},
-        {"@type":"LocationFeatureSpecification","name":"Non-smoking rooms","value":true}
+        {"@type":"LocationFeatureSpecification","name":"Non-smoking rooms","value":true},
+        {"@type":"LocationFeatureSpecification","name":"Keyless self check-in","value":true},
+        {"@type":"LocationFeatureSpecification","name":"In-room kitchenette","value":true},
+        {"@type":"LocationFeatureSpecification","name":"Flat-screen TV","value":true},
+        {"@type":"LocationFeatureSpecification","name":"Trailer parking","value":true}
+      ],
+      "makesOffer": {
+        "@type": "Offer",
+        "name": "Book a room at Rim Country Inn",
+        "url": "https://us2.cloudbeds.com/en/reservation/peJ1GH?currency=usd",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "USD",
+        "seller": {
+          "@type": "Hotel",
+          "name": "Rim Country Inn"
+        }
+      },
+      "sameAs": [
+        "https://rimcountryinnpayson.com"
       ]
     }
     </script>
