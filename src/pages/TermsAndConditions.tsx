@@ -9,6 +9,7 @@ const TermsAndConditions = () => {
         title="Terms & Conditions | Rim Country Inn Payson AZ"
         description="Terms and conditions for booking and staying at Rim Country Inn, a self-serve hotel in Payson, Arizona."
         path="/terms-and-conditions"
+        breadcrumbs={[{ name: "Home", path: "/" }, { name: "Terms & Conditions", path: "/terms-and-conditions" }]}
       />
       <Section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto prose prose-neutral dark:prose-invert">

@@ -45,6 +45,7 @@ const Rooms = () => {
         title="Rooms | Rim Country Inn — Payson AZ Hotel"
         description="Remodeled queen, king, double-queen, and 3-bedroom suite rooms at Rim Country Inn in Payson, AZ. Modern, clean, self check-in. Book direct."
         path="/rooms"
+        breadcrumbs={[{ name: "Home", path: "/" }, { name: "Rooms", path: "/rooms" }]}
       />
       {/* Hero */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
