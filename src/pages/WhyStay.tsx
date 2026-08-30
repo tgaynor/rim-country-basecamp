@@ -40,6 +40,7 @@ const WhyStay = () => {
         title="Why Stay at Rim Country Inn | Payson AZ Hotel"
         description="Family-owned, fully remodeled 23-room hotel in Payson, AZ. Self check-in, great value, central location near the Mogollon Rim."
         path="/why-stay"
+        breadcrumbs={[{ name: "Home", path: "/" }, { name: "Why Stay Here", path: "/why-stay" }]}
       />
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <img src={hotelExterior} alt="Rim Country Inn exterior" className="absolute inset-0 w-full h-full object-cover" />

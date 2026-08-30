@@ -49,6 +49,7 @@ const Explore = () => {
         title="Explore Payson AZ | Hiking, Lakes, Golf & Rim Country"
         description="Discover hiking, lakes, rivers, golf, and rodeo near Payson, AZ. Plan your Rim Country adventure from Rim Country Inn."
         path="/explore"
+        breadcrumbs={[{ name: "Home", path: "/" }, { name: "Explore Payson", path: "/explore" }]}
       />
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
         <img src={heroImage} alt="Payson landscape" className="absolute inset-0 w-full h-full object-cover" />

@@ -9,6 +9,7 @@ const PrivacyPolicy = () => {
         title="Privacy Policy | Rim Country Inn Payson AZ"
         description="How Rim Country Inn collects, uses, and protects guest information at our Payson, AZ hotel and on this website."
         path="/privacy-policy"
+        breadcrumbs={[{ name: "Home", path: "/" }, { name: "Privacy Policy", path: "/privacy-policy" }]}
       />
       <Section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto prose prose-neutral dark:prose-invert">

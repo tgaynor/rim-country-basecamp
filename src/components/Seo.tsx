@@ -10,11 +10,25 @@ interface SeoProps {
   path: string;
   image?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  /** Breadcrumb trail including the current page, e.g. [{name:"Home",path:"/"},{name:"Rooms",path:"/rooms"}] */
+  breadcrumbs?: { name: string; path: string }[];
 }
 
-const Seo = ({ title, description, path, image = DEFAULT_OG_IMAGE, jsonLd }: SeoProps) => {
+const Seo = ({ title, description, path, image = DEFAULT_OG_IMAGE, jsonLd, breadcrumbs }: SeoProps) => {
   const url = `${SITE_URL}${path}`;
   const ldArray = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+  if (breadcrumbs && breadcrumbs.length > 1) {
+    ldArray.push({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: breadcrumbs.map((b, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: b.name,
+        item: `${SITE_URL}${b.path}`,
+      })),
+    });
+  }
 
   return (
     <Helmet>

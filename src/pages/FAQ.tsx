@@ -33,6 +33,7 @@ const FAQ = () => {
         title="FAQ | Rim Country Inn Payson AZ Hotel"
         description="Answers about self check-in, check-in/out times, parking, animals, and cancellations at Rim Country Inn in Payson, AZ."
         path="/faq"
+        breadcrumbs={[{ name: "Home", path: "/" }, { name: "FAQ", path: "/faq" }]}
         jsonLd={faqJsonLd}
       />
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28">
