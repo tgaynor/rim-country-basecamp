@@ -7,7 +7,7 @@ const faqs = [
   { q: "What time is check-in?", a: "Check-in is at 4:00 PM. " },
   { q: "What time is check-out?", a: "Check-out is at 11:00 AM. " },
   { q: "How does self check-in work?", a: "After booking, you'll receive instructions for our keyless self check-in system. Prior to check in time, you will receive your unique access code via email and text. Check both. You can arrive and access your room at the check in time — no need to visit the front desk, we don't have one." },
-  { q: "Are animals allowed?", a: "Yes, we have a simple animal policy. We want to accommodate all our guests while keeping rooms clean and comfortable for everyone." },
+  { q: "Are animals allowed?", a: "No, animals are not allowed at Rim Country Inn, with the exception of service animals as required by law." },
   { q: "Is parking available?", a: "Yes! Free parking is available on-site for all guests, including standard vehicles." },
   { q: "Can I park a trailer?", a: "We have limited space for trailers and larger vehicles. Please contact us before your stay to confirm availability." },
   { q: "What is the cancellation policy?", a: "Cancellation policies may vary by rate and season. Please check the details during the booking process or contact us directly for questions." },
