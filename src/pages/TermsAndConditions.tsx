@@ -89,7 +89,7 @@ const TermsAndConditions = () => {
           </p>
           <ul className="list-none pl-0 text-muted-foreground space-y-1 mt-3">
             <li>Email: <a href={`mailto:${EMAIL}`} className="text-primary hover:underline">{EMAIL}</a></li>
-            <li>Phone: <a href={`tel:${PHONE}`} className="text-primary hover:underline">{PHONE}</a></li>
+            <li>Phone: <a href={`tel:${PHONE}`} className="text-primary hover:underline">{PHONE}</a> — answered by an AI assistant on standby with all the basic property information.</li>
             <li>Address: {ADDRESS}</li>
           </ul>
 
@@ -127,15 +127,16 @@ const TermsAndConditions = () => {
             Support and Help
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            For help or more information, reply HELP to any message or contact us at{" "}
-            <a href="mailto:george@pghappyjackholdings.com" className="text-primary hover:underline">george@pghappyjackholdings.com</a>.
+            For help or more information, contact us at{" "}
+            <a href={`mailto:${EMAIL}`} className="text-primary hover:underline">{EMAIL}</a>.
           </p>
 
           <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
             Opt-Out Instructions
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            To stop receiving messages, reply STOP to any message we send. You will receive one final confirmation message and will no longer receive SMS from this program. You may re-opt-in at any time by providing your number again.
+            If you no longer wish to receive messages from this program, contact us at{" "}
+            <a href={`mailto:${EMAIL}`} className="text-primary hover:underline">{EMAIL}</a> and we will stop sending SMS to your number. You may opt back in at any time by providing your number again.
           </p>
 
           <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
@@ -210,10 +211,10 @@ const TermsAndConditions = () => {
           </p>
 
           <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
-            6. Pets Policy
+            6. Animals Policy
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            We extend a warm welcome to guests traveling with small pets, subject to prior approval and the payment of specified pet fees. To ensure the comfort and well-being of all guests, individuals intending to bring pets are advised to consult with management regarding applicable policies and associated charges before arrival.
+            Animals are not allowed at Rim Country Inn, with the exception of service animals as required by law.
           </p>
 
           <h3 className="font-display text-lg font-semibold text-foreground mt-8 mb-3">
@@ -264,7 +265,7 @@ const TermsAndConditions = () => {
           </p>
 
           <p className="text-muted-foreground leading-relaxed mt-6">
-            We respect your privacy and only use your information to provide hotel services. By giving us your mobile number, you agree to receive SMS messages about reservations, updates, or offers. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. We never sell or share your information with third parties for marketing.
+            We respect your privacy and only use your information to provide hotel services. By giving us your mobile number, you agree to receive SMS messages about reservations, updates, or offers. Message and data rates may apply. To opt out, contact us at {EMAIL}. We never sell or share your information with third parties for marketing.
           </p>
         </div>
       </Section>
